@@ -3,13 +3,13 @@
 
 ## 二级目录
 bash命令示例
-```bash
+```Bash
 npm install docsify-demo
 ```
 
 ### 三级目录
-javascript代码示例
-```javascript
+Javascript代码示例
+```Javascript
 // 防抖函数 (本案例利用闭包实现，这样无需再antiShake外部定义timeout变量)
 function antiShake(fn, wait) {
     let timeout = null
@@ -47,7 +47,7 @@ function antiShake(fn, wait) {
 
 ## 二级目录
 bash命令示例
-```json
+```Json
 josn = {
     "a": 1,
     "b": 2
