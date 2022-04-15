@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Docsify Demo</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/dark.css"> -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+</head>
+<body>
+  <nav>
+    <a href="#/zh-cn/">中文</a>
+    <a href="#/">EN</a>
+  </nav>
+  <div data-app id="docsify-app"></div>
+  <script>
+    window.$docsify = {
+      el: '#docsify-app', // 修改挂载点，容器需要添加data-app
+      name: 'DOCSIFY_DEMO', // 文档标题-应用名称
+      loadSidebar: true, // 定制侧边栏
+      subMaxLevel: 4, // 侧边栏目录显示级别
+      loadNavbar: true, // 定制导航栏
+      coverpage: { // 开启封面 如果coverpage: true，只会取默认的封面，切取_coverpage.md文件
+        '/zh-cn/': 'cover.md',
+        '/': 'cover.md'
+      },
+      repo: '' // git仓库
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>
