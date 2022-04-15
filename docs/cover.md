@@ -1,4 +1,4 @@
-![logo](../static/image/video.png ':class=logo') <span class="websit">我的文档生成器 - EN</span>
+![logo](./static/image/video.png ':class=logo') <span class="websit">我的文档生成器 - EN</span>
 
 
 # docsify <small>3.5</small>
